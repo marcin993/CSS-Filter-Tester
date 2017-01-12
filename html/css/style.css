@@ -1,0 +1,139 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600");
+@import url("https://fonts.googleapis.com/css?family=Oxygen+Mono");
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #f1f1f1;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem; }
+
+.container {
+  height: 100vh; }
+
+.site {
+  border: solid 1px #bebebe;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1000px;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%); }
+
+.preview {
+  align-self: center;
+  flex: 1; }
+
+.properties {
+  flex: 1; }
+
+.header {
+  font-weight: 600; }
+
+.img {
+  background-color: #e4e4e4;
+  background-image: url("../images/alpha-bg.gif");
+  border: dashed 2px #bebebe;
+  color: #989898;
+  cursor: pointer;
+  height: 30rem;
+  line-height: 30rem;
+  margin: 1rem auto;
+  text-align: center;
+  text-shadow: 1px 1px 0px #f1f1f1;
+  width: 90%; }
+
+.active {
+  border: solid 2px #b30000; }
+
+#img {
+  max-height: 30rem;
+  max-width: 100%; }
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin: 1rem auto; }
+
+.control {
+  margin: .5rem auto;
+  text-align: center;
+  width: 50%; }
+
+.value-input {
+  border: solid 1px #bebebe;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-right: .2rem;
+  padding: .5rem;
+  text-align: center; }
+
+.btn {
+  border: solid 1px #bebebe;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  padding: .5rem;
+  transition: background-color .20s; }
+
+.btn:hover {
+  background-color: #fff; }
+
+.result {
+  text-align: center;
+  width: 100%; }
+
+.code-area {
+  border: solid 1px #bebebe;
+  font-family: "Oxygen Mono", monospace;
+  font-size: 1.4rem;
+  width: 95%; }
+
+.containers {
+  height: 30rem;
+  position: absolute;
+  width: 45rem; }
+
+.inner-containers {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.preview-img-container {
+  z-index: 998; }
+
+.upload-input-container {
+  z-index: 999; }
+
+#uploadFile {
+  cursor: pointer;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.error {
+  background-color: #d20000;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin-top: -200px;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  transition: margin-top 1s; }
+  .error p {
+    margin: 1rem auto; }

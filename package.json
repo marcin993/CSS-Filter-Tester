@@ -1,0 +1,30 @@
+{
+  "name": "cssft",
+  "version": "0.0.1",
+  "description": "CSS filter tester",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marcin993/CSS-Filter-Tester.git"
+  },
+  "keywords": [
+    "css",
+    "filter",
+    "tester",
+    "css3"
+  ],
+  "author": "Marcin Lasecki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcin993/CSS-Filter-Tester/issues"
+  },
+  "homepage": "https://github.com/marcin993/CSS-Filter-Tester#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  }
+}
